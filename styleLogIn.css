@@ -1,0 +1,65 @@
+*{
+    margin:0;
+}
+.background{
+    display: flex;
+    width:100%;
+    background: url("login.jpg") no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#nav{
+    position: fixed;
+    top:20px;
+    left:40px;
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(243, 244, 247);
+    padding: 30px;
+    width: 20%;
+    height: 25%;
+    border:solid 8px rgb(45, 51, 51) ;
+    border-radius: 10%;
+   
+}
+
+.header{
+    display:flex;
+   justify-content: center;
+}
+
+
+.items{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.items>p{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.button-items{
+    display:flex;
+    justify-content: space-around;
+}
+.button-items>a{
+    transition: 0.5s;
+    border:solid rgb(45, 51, 51) 3px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10%;
+    padding: 5px 15px;
+}
+.button-items>a:hover{
+    background-color:black ;
+    color:white;
+}

@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    color: cornsilk;
+}
+.background{
+    width:100%;
+    background: url("back.jpg") no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(13, 19, 46);
+    opacity:0.7;
+}
+.logo{
+    height: 60px;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-items> a:hover{
+    color:red;
+    background-color: rgb(206, 200, 221);
+}
+
+.nav-items>a{
+    text-decoration: none;
+    width: fit-content;
+    padding:13px;
+    color:white;
+    font-family:monospace;
+    font-size: 150%;
+}
+.menu{
+    background-color:rgb(13, 19, 46);
+    width: 20%;
+    opacity: 0.7;
+}
+.menu-icon{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 4px 0;
+}
+.menu-title{
+    color: white;
+    font-size: 75%;
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+}
+#myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu-li{
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    display: block
+  }
+  .menu-li:hover{
+    background-color: rgb(123, 117, 139);
+  }
+ 
+ main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .lorem{
+    align-self: flex-start;
+     display: flex;
+     width: 75%;
+     color:black ;
+     background-color: whitesmoke;
+     margin: 0 auto;
+     font-size: 150%;
+     padding: 20px;
+     opacity: 0.7;
+ }
+ #drop-ul{
+     display: none;
+
+ }
+ #dropdown:hover ~#drop-ul{
+
+     display: block!important;    
+ }
+ #drdlist{
+     padding: 12px;
+ }
+ #drdlist:hover{
+     background-color: white;
+ }
+ #dropdown{
+     display:flex;
+     justify-content: space-between ;
+ }
+ .ex-blog{
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding:20px;
+ }
+ .blogs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:21% ;
+    color:black ;
+    background-color: whitesmoke;
+    font-size: 150%;
+    padding: 20px;
+    opacity: 0.7;
+    
+ }
+ .blogs>p{
+     position: relative;
+     width: 97%;
+ }
+ .fas fa-shield-alt{
+    font-size: 60px;
+ }
+ .fas fa-snowflake{
+     font-size: 60px;
+ }
